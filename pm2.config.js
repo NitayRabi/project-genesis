@@ -28,8 +28,6 @@ const apps = [
         instance_var: 'INSTANCE_ID',
         env: envDev,
         env_production: envProd,
-        out_file: 'NULL',
-        error_file: 'NULL',
         watch_options: watchOptions
     }
 ];
