@@ -3,10 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { CharitiesService } from '~/charities/charities.service';
 
 @Component({
-    selector: 'ns-items',
+    selector: 'ns-charities',
     moduleId: module.id,
-    templateUrl: './profile.component.html',
-    styleUrls: ['./profile.component.css']
+    templateUrl: './charities.component.html',
+    styleUrls: ['./charities.component.css']
 })
 export class CharitiesComponent implements OnInit {
     charities: any[] = [

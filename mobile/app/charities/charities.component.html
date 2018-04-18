@@ -25,9 +25,10 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
 -->
 <StackLayout class="page">
     <ListView [items]="charities" class="list-group">
-        <ng-template let-item="charity">
+        <ng-template let-charity="item">
             <Label [nsRouterLink]="['/charity', charity.id]" [text]="charity.name"
                    class="list-group-item"></Label>
         </ng-template>
     </ListView>
+    <Button class="btn btn-primary" [nsRouterLink]="['/login']" [text]="'back'"></Button>
 </StackLayout>

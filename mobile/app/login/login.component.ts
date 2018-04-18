@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { LoginService } from '~/login/login.service';
 
 @Component({
-    selector: 'ns-items',
+    selector: 'ns-login',
     moduleId: module.id,
     templateUrl: './login.component.html',
     styleUrls: ['./login.component.css']

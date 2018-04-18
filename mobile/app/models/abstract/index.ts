@@ -1,0 +1,1 @@
+export { RestClass } from './rest.class';

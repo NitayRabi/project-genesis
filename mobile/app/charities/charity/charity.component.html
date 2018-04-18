@@ -10,7 +10,7 @@ So you can still use template expressions, bindings, templates as well as all th
 The ActionBar is the NativeScript common abstraction over the Android ActionBar and iOS NavigationBar.
 http://docs.nativescript.org/ui/action-bar
 -->
-<ActionBar title="Profile" class="action-bar">
+<ActionBar title="Charity" class="action-bar">
 </ActionBar>
 
 <!--
@@ -25,4 +25,5 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
 -->
 <StackLayout class="page">
     <!--Add some inputs and buttons here-->
+    <Button class="btn btn-primary" [nsRouterLink]="['/charities']" [text]="'back'"></Button>
 </StackLayout>

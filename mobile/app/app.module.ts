@@ -1,6 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { NativeScriptFormsModule } from 'nativescript-angular/forms';
-import { NativeScriptHttpModule } from 'nativescript-angular/http';
+import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 //
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 import { AppRoutingModule } from './app.routing';
@@ -22,10 +22,10 @@ import { ProfileService } from '~/profile/profile.service';
         AppComponent
     ],
     imports: [
+        NativeScriptHttpClientModule,
         NativeScriptModule,
         AppRoutingModule,
-        NativeScriptFormsModule,
-        NativeScriptHttpModule
+        NativeScriptFormsModule
     ],
     declarations: [
         AppComponent,

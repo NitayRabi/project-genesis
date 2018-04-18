@@ -3,10 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { RegisterService } from '~/register/register.service';
 
 @Component({
-    selector: 'ns-items',
+    selector: 'ns-register',
     moduleId: module.id,
-    templateUrl: './profile.component.html',
-    styleUrls: ['./profile.component.css']
+    templateUrl: './register.component.html',
+    styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
 
